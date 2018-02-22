@@ -1,0 +1,35 @@
+html,
+body {
+	min-width: 1200px;
+	min-height: 1750px;
+	margin: 0;
+	padding: 0;
+}
+
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.container {
+	width: 1160px;
+	padding: 0 10px;
+	margin: 0 auto;
+}
+
+.logo {
+	width: 160px;
+	float: left;
+	margin-right: 40px;
+}
+
+.main-navigation {
+	width: 760px;
+	float: left;
+}
+
+.basket {
+	width: 160px;
+	float: right;
+}
