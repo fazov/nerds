@@ -1,7 +1,7 @@
 html,
 body {
 	min-width: 1200px;
-	min-height: 1750px;
+	/* min-height: 1750px; */
 	margin: 0;
 	padding: 0;
 }
@@ -18,6 +18,10 @@ body {
 	margin: 0 auto;
 }
 
+.main-header {
+	margin-bottom: 18px;
+}
+
 .logo {
 	width: 160px;
 	float: left;
@@ -32,4 +36,52 @@ body {
 .basket {
 	width: 160px;
 	float: right;
+}
+
+.feature {
+	margin-bottom: 80px;
+}
+
+.index-content {
+	margin-bottom: 80px;
+}
+
+.index-content-item {
+	float: left;
+	width: 300px;
+	margin-right: 100px;
+}
+
+.index-content-item:last-child {
+	margin-right: 0;
+}
+
+.dividing-line-first {
+	margin-bottom: 40px;
+}
+
+.index-about {
+	margin-bottom: 22px;
+}
+
+.index-about-left {
+	float: left;
+	width: 700px;
+}
+
+.index-about-right {
+	float: right;
+	width: 380px;
+}
+
+.dividing-line-second {
+	margin-bottom: 46px;
+}
+
+.index-links {
+	margin-bottom: 44px;
+}
+
+.dividing-line-third {
+	margin-bottom: 80px;
 }
