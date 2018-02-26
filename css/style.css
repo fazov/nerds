@@ -74,6 +74,18 @@ body {
 	width: 380px;
 }
 
+.index-about-right img {
+	margin-bottom: 37px;
+}
+
+.index-about-right p {
+	margin-bottom: 10px;
+}
+
+.index-about-right-stat {
+	display: inline-block;
+}
+
 .dividing-line-second {
 	margin-bottom: 46px;
 }
