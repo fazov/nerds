@@ -95,5 +95,12 @@ body {
 }
 
 .dividing-line-third {
-	margin-bottom: 80px;
+	margin-bottom: 134px;
+}
+
+.index-contacts {
+	float: left;
+	width: 319px;
+	height: 308px;
+	padding: 47px 50px;
 }
