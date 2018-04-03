@@ -14,10 +14,18 @@ body {
 	color: #000000;
 }
 
+main {
+	border-top: 1px solid white;
+}
+
 /* Стили подсветки блоков
 
 .backlight-r {
 	outline: 2px solid red;
+}
+
+.backlight-b {
+	outline: 2px solid blue;
 }
 
 .backlight-yel {
@@ -38,7 +46,6 @@ body {
 
 .main-header {
 	background-color: #eeeeee;
-	margin-bottom: 18px;
 }
 
 .logo {
@@ -204,6 +211,7 @@ body {
 }
 
 .index-content {
+	margin-top: 79px;
 	margin-bottom: 80px;
 }
 
@@ -215,6 +223,35 @@ body {
 
 .index-content-item:last-child {
 	margin-right: 0;
+}
+
+.index-content-item h2 {
+	margin-top: 23px;
+	margin-bottom: 20px;
+	font-size: 24px;
+	line-height: 30px;
+	text-transform: uppercase;
+}
+
+.index-content-item p {
+	margin: 0;
+	margin-bottom: 30px;
+}
+
+.item-btn {
+	padding: 17px 39px;
+}
+
+.btn-1 {
+	background-color: #fb565a;
+}
+
+.btn-2 {
+	background-color: #00ca74;
+}
+
+.btn-3 {
+	background-color: #efc84a;
 }
 
 .dividing-line-first {
