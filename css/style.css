@@ -238,20 +238,31 @@ main {
 	margin-bottom: 30px;
 }
 
-.item-btn {
+.index-content-item_btn1 {
 	padding: 17px 39px;
-}
-
-.btn-1 {
 	background-color: #fb565a;
 }
 
-.btn-2 {
+.index-content-item_btn2 {
+	padding: 17px 39px;
 	background-color: #00ca74;
 }
 
-.btn-3 {
+.index-content-item_btn3 {
+	padding: 17px 39px;
 	background-color: #efc84a;
+}
+
+.index-content-item_btn1:hover {
+	background-color: #e74246;
+}
+
+.index-content-item_btn2:hover {
+	background-color: #00bc6c;
+}
+
+.index-content-item_btn3:hover {
+	background-color: #eab534;
 }
 
 .dividing-line-first {
