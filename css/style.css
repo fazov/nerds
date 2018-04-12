@@ -487,6 +487,8 @@ hr {
 .index-contacts-btn {
 	padding: 17px 45px;
 
+	text-transform: none;
+
 	background-color: #fb565a;
 }
 
