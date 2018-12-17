@@ -18,24 +18,6 @@ main div.container {
 	border-top: 1px solid white;
 }
 
-/* Стили подсветки блоков
-
-.backlight-r {
-	outline: 2px solid red;
-}
-
-.backlight-b {
-	outline: 2px solid blue;
-}
-
-.backlight-gr {
-	outline: 2px solid green;
-}
-
-.backlight-yel {
-	outline: 2px solid yellow;
-} */
-
 .clearfix::after {
 	content: "";
 	display: table;
@@ -57,7 +39,6 @@ main div.container {
 	width: 160px;
 	height: 65px;
 	margin-top: 50px;
-	/* margin-bottom: 18px; */
 	margin-right: 175px;
 }
 
@@ -143,6 +124,86 @@ main div.container {
 	border: 1px dotted black;
 }
 
+.slider-controls {
+	position: absolute;
+	bottom: 95px;
+	left: 50%;
+	width: 200px;
+	height: 18px;
+	margin-left: -100px;
+	text-align: center;
+	border: 1px dotted green;
+	z-index: 1000;
+}
+
+.slider-controls i {
+	display: inline-block;
+	width: 8px;
+	height: 8px;
+	margin: 0 8px;
+	border: 5px solid white;
+	border-radius: 50%;
+	background-color: white;
+	vertical-align: top;
+	cursor: pointer;
+}
+
+.slider-controls .active {
+	background-color: #c1c1c1;
+}
+
+.slide {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.slide-text {
+	width: 525px;
+	padding: 80px 0;
+	color: #283136;
+}
+
+.slide-title {
+	font-size: 55px;
+	line-height: 1;
+	font-weight: 500;
+	color: #000;
+}
+
+.btn {
+	display: block;
+	padding: 17px 0;
+
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 18px;
+	color: #ffffff;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: none;
+
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+}
+
+.slide .btn {
+	width: 240px;
+	margin-top: 40px;
+
+	background-color: #fb565a;
+}
+
+.slide .btn:hover {
+	background-color: #e74246;
+}
+
+/* CSS-правила для первоначальной разметки слайдера
+
 .feature {
 	float: left;
 	width: 400px;
@@ -161,24 +222,9 @@ main div.container {
 	margin-top: 25px;
 }
 
-.btn {
-	display: inline-block;
-
-	font-weight: 400;
-	font-size: 16px;
-	line-height: 18px;
-	color: #ffffff;
-	vertical-align: top;
-	text-align: center;
-	text-transform: uppercase;
-	text-decoration: none;
-
-	border: none;
-	border-radius: 3px;
-	cursor: pointer;
-}
-
 .slider-btn {
+	margin-top: 40px;
+
 	padding: 17px 54px;
 	background-color: #fb565a;
 }
@@ -221,6 +267,8 @@ main div.container {
 	left: 170px;
 }
 
+*/
+
 .index-content {
 	margin-top: 79px;
 	margin-bottom: 80px;
@@ -246,33 +294,34 @@ main div.container {
 
 .index-content-item p {
 	margin: 0;
-	margin-bottom: 30px;
 }
 
-.index-content-item_btn1 {
-	padding: 17px 39px;
+.index-content-item_btn {
+	width: 160px;
+	margin-top: 30px;
+}
+
+.index-content-item .btn1 {
 	background-color: #fb565a;
 }
 
-.index-content-item_btn2 {
-	padding: 17px 39px;
-	background-color: #00ca74;
-}
-
-.index-content-item_btn3 {
-	padding: 17px 39px;
-	background-color: #efc84a;
-}
-
-.index-content-item_btn1:hover {
+.index-content-item .btn1:hover {
 	background-color: #e74246;
 }
 
-.index-content-item_btn2:hover {
+.index-content-item .btn2 {
+	background-color: #00ca74;
+}
+
+.index-content-item .btn2:hover {
 	background-color: #00bc6c;
 }
 
-.index-content-item_btn3:hover {
+.index-content-item .btn3 {
+	background-color: #efc84a;
+}
+
+.index-content-item .btn3:hover {
 	background-color: #eab534;
 }
 
@@ -492,7 +541,7 @@ hr {
 }
 
 .index-contacts-btn {
-	padding: 17px 45px;
+	width: 220px;
 
 	background-color: #fb565a;
 }
