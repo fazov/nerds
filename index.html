@@ -30,15 +30,25 @@
 						</li>
 					</ul>
 				</nav>
-				<div class="basket backlight-yel">
+				<div class="basket">
 					<a href="#">Корзина</a>
 				</div>
 			</div>
 			<div class="slider">
+				<!-- Разметка переключателей слайдера под JS (css-127)
 				<div class="slider-controls">
 					<i class="active"></i>
 					<i></i>
 					<i></i>
+				</div>
+				-->
+				<input type="radio" id="btn-1" name="toggle" checked>
+				<input type="radio" id="btn-2" name="toggle">
+				<input type="radio" id="btn-3" name="toggle">
+				<div class="slider-controls">
+					<label for="btn-1"></label>
+					<label for="btn-2"></label>
+					<label for="btn-3"></label>
 				</div>
 				<div class="slides">
 					<div class="slide">
@@ -49,54 +59,59 @@
 							<a class="btn" href="#">Узнать больше</a>
 						</div>
 					</div>
+					<div class="slide">
+						<div class="slide-text">
+							<div class="slide-title">Любим математику как никто другой</div>
+							<p>Никакого креатива, только математические формулы<br>
+							для расчета идеальных пропорций.</p>
+							<a class="btn" href="#">Узнать больше</a>
+						</div>
+					</div>
+					<div class="slide">
+						<div class="slide-text">
+							<div class="slide-title">
+								Только ночь,<br>
+								только хардкор
+							</div>
+							<p>Работать днем, как все? Мы против этого.<br>
+							Ближе к полуночи работа только начинается.</p>
+							<a class="btn" href="#">Узнать больше</a>
+						</div>
+					</div>
 				</div>
 			</div>
-			<!-- Первоначальная разметка сдайдера !!!
-			<section class="feature backlight-yel">
-				<b>Долго, дорого, скрупулезно.</b>
-				<p>Математически выверенный дизайн<br>
-				для вашего сайта или мобильного приложения.</p>
-				<a class="btn slider-btn" href="#">Узнать больше</a>
-			</section>
-			<div class="slider-content backlight-yel">
-				<img src="img/slide1.png" width="698" height="413" alt="">
-				<div class="active active-1"></div>
-				<div class="active active-2"></div>
-				<div class="active active-3"></div>
-			</div>
-			-->
 		</div>
 	</header>
 	<main>
-		<div class="container backlight-r">
-			<div class="index-content clearfix backlight-b">
-				<div class="index-content-item backlight-yel">
+		<div class="container border">
+			<div class="services clearfix">
+				<div class="services-item">
 					<img src="img/illustration-1.jpg" width="300" height="146" alt="Веб-сайты">
-					<h2 class="index-content-title">Веб-сайты</h2>
+					<h2>Веб-сайты</h2>
 					<p>Мир никогда не будет прежним после того как увидит ваш сайт!</p>
-					<a class="btn index-content-item_btn btn1" href="#">Заказать</a>
+					<a class="btn services-item_btn btn1" href="#">Заказать</a>
 				</div>
-				<div class="index-content-item backlight-yel">
+				<div class="services-item">
 					<img src="img/illustration-2.jpg" width="300" height="146" alt="Приложения">
-					<h2 class="index-content-title">Приложения</h2>
+					<h2>Приложения</h2>
 					<p>Покорите топ-10 приложений в AppStore и Google Play</p>
-					<a class="btn index-content-item_btn btn2" href="#">Заказать</a>
+					<a class="btn services-item_btn btn2" href="#">Заказать</a>
 				</div>
-				<div class="index-content-item backlight-yel">
+				<div class="services-item">
 					<img src="img/illustration-3.jpg" width="300" height="146" alt="Презентации">
-					<h2 class="index-content-title">Презентации</h2>
+					<h2>Презентации</h2>
 					<p>Вы даже не подозреваете, насколько вы изумительны!</p>
-					<a class="btn index-content-item_btn btn3" href="#">Заказать</a>
+					<a class="btn services-item_btn btn3" href="#">Заказать</a>
 				</div>
 			</div>
 			<hr class="dividing-line-first">
 			<div class="index-about clearfix backlight-b">
-				<div class="index-about-left backlight-gr">
+				<div class="index-about-left">
 					<p class="tagline">Мы <span></span> маленькая, но гордая дизайн-студия из Краснодара.</p>
 					<p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет<br>
 					превыше креатива. Работаем не покладая рук, как роботы.</p>
 					<b>Выполняем заказы на разработку:</b>
-					<ul class="backlight-yel">
+					<ul>
 						<li>
 							Веб-сайтов любой сложности
 						</li>
@@ -108,25 +123,25 @@
 						</li>
 					</ul>
 				</div>
-				<div class="index-about-right backlight-gr">
+				<div class="index-about-right">
 					<img src="img/nerds-illustration.jpg" width="360" height="208" alt="«Nerd's»">
 					<p class="bold">С 2004 года любим точность во всем:</p>
 					<div class="index-about-right-stat">
-						<div class="stat backlight-yel">
+						<div class="stat">
 							<b>146<sup>%</sup></b>
 							<p>
 								Уровень<br>
 								самоотдачи
 							</p>
 						</div>
-						<div class="stat backlight-yel">
+						<div class="stat">
 							<b>100<sup>%</sup></b>
 							<p>
 								Соблюдение<br>
 								сроков
 							</p>
 						</div>
-						<div class="stat backlight-yel">
+						<div class="stat">
 							<b>50<sup>%</sup></b>
 							<p>
 								Минимальная<br>
@@ -137,25 +152,19 @@
 				</div>
 			</div>
 			<hr class="dividing-line-second">
-			<ul class="index-links backlight-b">
+			<ul class="index-links">
 				<li>
 					<a href="#"><img src="img/logo-1.png" width="199" height="68" alt="htmlacademy"></a>
 				</li>
-				<li>
-					<div></div>
-				</li>
+				<li></li>
 				<li>
 					<a href="#"><img src="img/logo-2.png" width="209" height="90" alt="borodinski"></a>
 				</li>
-				<li>
-					<div></div>
-				</li>
+				<li></li>
 				<li>
 					<a href="#"><img src="img/logo-3.png" width="185" height="52" alt="pink"></a>
 				</li>
-				<li>
-					<div></div>
-				</li>
+				<li></li>
 				<li>
 					<a href="#"><img src="img/logo-4.png" width="173" height="84" alt="mishka"></a>
 				</li>
@@ -163,15 +172,15 @@
 			<hr class="dividing-line-third">
 		</div>
 		<div class="map">
-			<div class="container backlight-r">
+			<div class="container">
 				<div class="index-contacts">
 					<b>Nerds Design Studio</b>
 					<p class="adress">
-					191186 Санкт-Петербург,<br>
-					ул. Б. Конюшенная, д. 19/8
+						191186 Санкт-Петербург,<br>
+						ул. Б. Конюшенная, д. 19/8
 					</p>
 					<p class="phone">
-					тел. +7 (812) 275-75-75
+						тел. +7 (812) 275-75-75
 					</p>
 					<a class="btn index-contacts-btn" href="#">Напишите нам</a>
 				</div>
@@ -179,16 +188,16 @@
 		</div>
 	</main>
 	<footer>
-		<div class="container clearfix backlight-r">
-			<div class="footer-social backlight-yel">
+		<div class="container clearfix">
+			<div class="footer-social">
 				<a class="social-btn social-btn-vk" href="#">Вконтакте</a>
 				<a class="social-btn social-btn-fb" href="#">Фейсбук</a>
 				<a class="social-btn social-btn-inst" href="#">Инстаграм</a>
 			</div>
-			<div class="footer-action backlight-yel">
+			<div class="footer-action">
 				<p>
-				<b>Давайте дружить, это выгодно!</b><br>
-				Скидка 10% для друзей из социальныйх сетей.
+					<b>Давайте дружить, это выгодно!</b><br>
+					Скидка 10% для друзей из социальныйх сетей.
 				</p>
 			</div>
 		</div>
